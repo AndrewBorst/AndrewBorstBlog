@@ -1,0 +1,37 @@
+---
+title: "Intro to the Star Schema"
+author: "Andrew Borst"
+date: 2021-05-18T21:13:14-05:00
+categories: ["BI"]
+tags: ["SQL", "SSAS","Power BI"]
+---
+
+
+
+<div id="star-schema" class="section level1">
+<h1>Star Schema</h1>
+<p>Two months ago, I had no practical experience with dimensional modeling and the star schema but I needed to quickly get up to speed and produce a star schema in the data warehouse from staged data, build a Sql Server Analysis Services (SSAS) tabular model, and create reports in Power BI (see <a href="https://docs.microsoft.com/en-us/power-bi/guidance/star-schema">Understand star schema and the importance for Power BI</a>). The purpose of the this post is to quickly how to approach learning the star schema.</p>
+<p>Dimensional modeling with a star schema was developed by Ralph Kimball. Although, the Kimball group is no longer active, their website has many key posts that will help you with the patterns and principles. Putting the Star Schema (Adamson) book in your library is the first step along the path. If you don’t have time to read it through, definitely read Part I Fundamentals before you make any design decisions.</p>
+<p>When your eyes get tired of reading, there are some must-watch, free video resources available:</p>
+<ol style="list-style-type: decimal">
+<li>Free training SQLBI, [Introduction to Data Modeling for Power BI Video Course] (<a href="https://www.sqlbi.com/p/introduction-to-data-modeling-for-power-bi-video-course/" class="uri">https://www.sqlbi.com/p/introduction-to-data-modeling-for-power-bi-video-course/</a>).</li>
+<li>Three part series on YouTube, [ETL Architecture In-Depth - Dimensional Modelling 101] (<a href="https://www.youtube.com/watch?v=DspXXZrSVRk" class="uri">https://www.youtube.com/watch?v=DspXXZrSVRk</a>).</li>
+<li><a href="https://www.youtube.com/watch?v=VDwwbrtry94">Implementing Data Warehouse Patterns with Microsoft BI Tools</a></li>
+</ol>
+<p>After about 40 hours of learning, you should have a foundation on which to start modeling. About 75% of the modeling will implement the fact table to dimension table relationship that is many-to-one. The other 25% of the model will be where you will spend your most time – remember to keep it simple and use the established pattern and practices, [The 10 Essential Rules of Dimensional Modeling] (<a href="https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/" class="uri">https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/</a>). The design patterns can be viewed as tools in your tool belt – you pull the correct one out and apply it.</p>
+<p>The key to acquiring the correct tool when needed is to have some familiarity with what the tools are called so you can search and find the pattern needed. The videos and books above should provide with with most of this knowledge. However, a list here may be helpful:</p>
+<ul>
+<li>Common Dimension (same dimension across facts, allows drilling across fact measures)</li>
+<li>Conformed Dimension (translate and conform your data into one dimension table from multiple sources)</li>
+<li>Degenerate Dimension (sometimes it is useful to have a single dimensional attribute or two in a fact table)</li>
+<li>Slowing Changing Dimension &amp; Type (handling data that changes over time)</li>
+<li>Junk Dimension (gather a few unrelated attributes)</li>
+<li>Outrigger Dimension (only utilize when dimension table to too large and cannot be done with a typical star schema pattern)</li>
+<li>Role-Playing Dimension (muliple fact keys to the same dimension)</li>
+<li>Bridge Table (pattern for many-to-many relationship)</li>
+<li>Factless Fact Table (tallies – # of instances of dimension attribute values)</li>
+<li>Transaction Fact Table</li>
+<li>Periodic Snapshot Fact Table (measures that cannot always be rolled up)</li>
+<li>Accumulating Snapshot Fact Table</li>
+</ul>
+</div>
