@@ -6,9 +6,7 @@ categories: ["BI"]
 tags: ["SQL", "SSAS","Power BI"]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
+
 
 # Star Schema 
 

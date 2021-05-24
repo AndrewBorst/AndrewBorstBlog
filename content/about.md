@@ -1,6 +1,6 @@
 ---
 date: "2021-05-05T21:48:51-07:00"
-title: Andrew 'Andy' Borst
+title: Andrew Borst
 ---
 
 Blogging about my adventures in BI development and data science. As a lifelong longer, I have always found analytical work to be fufilling and interesting. 
@@ -33,15 +33,15 @@ Located in Plainfield, Indiana.
   
 ***
 
-## Goals for 2020 [x]
+## Goals for 2020
   ### Data Science
   * R Shiny Dashboards [x]
     + Complete Data Science Course for Interactive Sales Dashboard [x]
     + Implement Interactive Sales Dashboard using Rmarkdown with Shiny engine [x]
     + Migrate and improve Executive reports into DataTable using DT package [x]
 
-  ### Application Development=
-  * Migrate order managment application from VB6 to Blazor Webassembly [x]
+  ### Application Development
+  * Migrate order managment application from VB6 to Blazor WebAssembly [x]
   
   ### Server Administration
   *  Spin-up Production and Development CENTOS Web Servers with .NET Core, R Shiny, and Apache [x]
