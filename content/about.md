@@ -3,9 +3,47 @@ date: "2021-05-05T21:48:51-07:00"
 title: Andrew 'Andy' Borst
 ---
 
-Blogging about my adventures in IT. 
+Blogging about my adventures in IT as a BI developer and data scientist. AS a lifelong longer, I have always found analytical work to be fufilling and interesting. 
 
-Currently focused on R, C#, Blazor, UX/UI, Power BI, and SQL Server. 
+## Goals for 2021
+### Data Science
+* Blog using Blogdown [x]
+* Optimization of SQL Server queries 
+* Linear Regression Redux (last use of regression was 2015)
+  + R vs Python 
+* Classificaton 
+  + Logistic Regression
+  + Linear Discriminat Analysis
+  + Quadratic Discriminant Analysis
+  + K-Nearest Neighbors
+
+### BI 
+* Effective visualization techniques
+* Star schema for AR and AP 
+* Tabular model in SSAS [x]
+* Power BI to replace operational reports
+
+### Application Development
+* CSS Menus for sample application (a fresh look at Flexbox and CSS Grid)
+* Blazor with Telerik Controls
+  + Telerik grid for sample data
+* Database design for auditing changes
+  
+
+## Goals for 2020 [x]
+  ### Data Science
+  * R Shiny Dashboards [x]
+    + Complete Data Science Course for Interactive Sales Dashboard [x]
+    + Implement Interactive Sales Dashboard using Rmarkdown with Shiny engine [x]
+    + Migrate and improve Executive reports into DataTable using DT package [x]
+
+  ### Application Development=
+  * Migrate order managment application from VB6 to Blazor Webassembly [x]
+  
+  ### Server Administration
+  *  Spin-up Production and Development CENTOS Web Servers with .NET Core, R Shiny, and Apache [x]
+
+
 
 Located in Plainfield, Indiana. 
 
