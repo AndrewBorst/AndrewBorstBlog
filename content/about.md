@@ -3,7 +3,9 @@ date: "2021-05-05T21:48:51-07:00"
 title: Andrew 'Andy' Borst
 ---
 
-Blogging about my adventures in IT as a BI developer and data scientist. AS a lifelong longer, I have always found analytical work to be fufilling and interesting. 
+Blogging about my adventures in BI development and data science. As a lifelong longer, I have always found analytical work to be fufilling and interesting. 
+
+Located in Plainfield, Indiana. 
 
 ## Goals for 2021
 ### Data Science
@@ -29,6 +31,7 @@ Blogging about my adventures in IT as a BI developer and data scientist. AS a li
   + Telerik grid for sample data
 * Database design for auditing changes
   
+***
 
 ## Goals for 2020 [x]
   ### Data Science
@@ -45,6 +48,6 @@ Blogging about my adventures in IT as a BI developer and data scientist. AS a li
 
 
 
-Located in Plainfield, Indiana. 
+*** 
 
 This site was built using the [**blogdown**](https://github.com/rstudio/blogdown) package. 
