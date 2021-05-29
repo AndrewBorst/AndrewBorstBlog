@@ -34,6 +34,7 @@ Located in Plainfield, Indiana.
 * Blazor with Telerik Controls
   + Telerik grid for sample data
 * Database design for auditing changes
+* [OData](https://devblogs.microsoft.com/odata/asp-net-odata-8-0-preview-for-net-5/) with EF for .NET 5 
   
 ***
 

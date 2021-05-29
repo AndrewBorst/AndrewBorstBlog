@@ -1,8 +1,8 @@
 baseurl: /
 languageCode: en-us
-title: A Hugo website
+title: A data engineering and science blog by Andrew Borst 
 theme: hugo-lithium
-googleAnalytics: ''
+googleAnalytics: 'G-ZYWLL21SYY'
 disqusShortname: ''
 ignoreFiles:
   - \.Rmd$
@@ -23,7 +23,7 @@ menu:
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
-  description: A website built through Hugo and blogdown.
+  description: A data engineering and science blog by Andrew Borst. Located in Plainfield, Indiana which is a suburb of Indianapolis.  
   favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
