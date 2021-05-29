@@ -3,14 +3,18 @@ date: "2021-05-05T21:48:51-07:00"
 title: Andrew Borst
 ---
 
-Blogging about my adventures in BI development and data science. As a lifelong longer, I have always found analytical work to be fufilling and interesting. 
+Blogging about my adventures in development and data. As a lifelong longer, I have always found analytical work to be interesting and fufilling. 
 
 Located in Plainfield, Indiana. 
 
 ## Goals for 2021
-### Data Science
+### Data Engineering and Science
 * Blog using Blogdown [x]
-* Optimization of SQL Server queries 
+* Optimize query performance in SQL Server ([Microsoft Path](https://docs.microsoft.com/en-us/learn/paths/optimize-query-performance-sql-server/)) 
+  + Describe query plans
+  + Evaluate performance improvements by using DMVs and index tuning 
+  + [First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
+  
 * Linear Regression Redux (last use of regression was 2015)
   + R vs Python 
 * Classificaton 
@@ -21,7 +25,7 @@ Located in Plainfield, Indiana.
 
 ### BI 
 * Effective visualization techniques
-* Star schema for AR and AP 
+* Star schema design and implementation 
 * Tabular model in SSAS [x]
 * Power BI to replace operational reports
 
@@ -36,12 +40,12 @@ Located in Plainfield, Indiana.
 ## Goals for 2020
   ### Data Science
   * R Shiny Dashboards [x]
-    + Complete Data Science Course for Interactive Sales Dashboard [x]
+    + [DS4B 102-R: Shiny Dashboards](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1) [x]
     + Implement Interactive Sales Dashboard using Rmarkdown with Shiny engine [x]
-    + Migrate and improve Executive reports into DataTable using DT package [x]
+    + DataTable Reports using [DT package](https://rstudio.github.io/DT/) [x]
 
   ### Application Development
-  * Migrate order managment application from VB6 to Blazor WebAssembly [x]
+  * Architect Application in Blazor WebAssembly [x]
   
   ### Server Administration
   *  Spin-up Production and Development CENTOS Web Servers with .NET Core, R Shiny, and Apache [x]
