@@ -3,9 +3,9 @@ date: "2021-05-05T21:48:51-07:00"
 title: Andrew Borst
 ---
 
-Blogging about my adventures in development and data. As a lifelong longer, I have always found analytical work to be interesting and fufilling. 
+Blogging about my adventures in development and data. As a lifelong learner, I have always found analytical work to be interesting and fufilling. 
 
-Located in Plainfield, Indiana. 
+Located in Plainfield, Indiana which is in the suburbs of Indianapolis. 
 
 ## Goals for 2021
 ### Data Engineering and Science
