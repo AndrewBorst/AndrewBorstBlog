@@ -1,18 +1,21 @@
 ---
 title: "Learning the Star Schema"
 author: "Andrew Borst"
-date: 2021-05-18T21:13:14-05:00
-categories: ["BI"]
-tags: ["SQL", "SSAS","Power BI"]
+date: '2021-05-18T21:13:14-05:00'
+categories: BI
+tags:
+- SQL
+- SSAS
+- Power BI
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# Star Schema 
+# Dimensional Modeling Design with the Star Schema  
 
-Two months ago, I had no practical experience with dimensional modeling and the star schema but I needed to quickly get up to speed and produce a star schema in the data warehouse from staged data, build a Sql Server Analysis Services (SSAS) tabular model, and create reports in Power BI (see [Understand star schema and the importance for Power BI](https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)). The purpose of the this post is to quickly give the resources for learning the star schema.  
+The purpose of the this post is to quickly give the resources for learning the star schema. I have produced a star schema in the data warehouse from staged data, built a Sql Server Analysis Services (SSAS) tabular model, and created reports in Power BI (see [Understand star schema and the importance for Power BI](https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)). 
 
 Dimensional modeling with a star schema was developed by Ralph Kimball. Although, the Kimball group is no longer active, their website has many key posts that will help you with the patterns and principles. Putting the Star Schema (Adamson) book in your library is the first step along the path. If you don't have time to read it through, definitely read Part I Fundamentals before you make any design decisions.
 
@@ -28,7 +31,7 @@ The key to acquiring the correct tool when needed is to have some familiarity wi
 
 - Common Dimension (same dimension across facts, allows drilling across fact measures)
 - Conformed Dimension (translate and conform your data into one dimension table from multiple sources)
-- Degenerate Dimension (sometimes it is useful to have a single dimensional attribute or two in a fact table)
+- Degenerate Dimension (sometimes it is useful to have a single dimensional attribute or two in a fact table but this pattern doesn't translate well into Power BI)
 - Slowing Changing Dimension & Type (handling data that changes over time)
 - Junk Dimension (gather a few unrelated attributes)
 - Outrigger Dimension (only utilize when dimension table to too large and cannot be done with a typical star schema pattern)

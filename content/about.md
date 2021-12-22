@@ -1,41 +1,57 @@
 ---
-date: "2021-05-05T21:48:51-07:00"
-title: Andrew Borst
+title: "Andrew Borst"
+date: '2021-05-05T21:48:51-07:00'
 ---
 
 Blogging about my adventures in development and data. As a lifelong learner, I have always found analytical work to be interesting and fufilling. 
 
 Located in Plainfield, Indiana which is in the suburbs of Indianapolis. 
 
+
+## Goals for 2022
+### Data Engineering and Science
+* SQL Server Continuous Improvement Areas 
+  + First Responder Kit parameters and results 
+  + Index Tuning
+  + Columnstores
+  + Query Tuning
+  + Parameter Sniffing
+  + TempDB 
+* Add Support Vector Machine Notebook in Python to Portfolio    
+* Conversion of Jupyter Notebooks from Python to R  
+  + Data Exploration 
+  + Inferential Statistics and Hypothesis Testing 
+  + Dimensional Reduction: t-SNE and PCA 
+  + Clustering: K-Means and Gaussian Mixture 
+  + Classificaton: Logistic Regression, KNN, and Random Forests  
+  + Neural Networks: Artifical and Convolutional 
+  + Time Series 
+  + Recommendation Systems 
+* Courses in Linear Alegbra and Multivariate Calculus 
+  
 ## Goals for 2021
 ### Data Engineering and Science
 * Blog using Blogdown [x]
-* Optimize query performance in SQL Server ([Microsoft Path](https://docs.microsoft.com/en-us/learn/paths/optimize-query-performance-sql-server/)) 
-  + Describe query plans
-  + Evaluate performance improvements by using DMVs and index tuning 
-  + [First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
-  
-* Linear Regression Redux (last use of regression was 2015)
-  + R vs Python 
-* Classificaton 
-  + Logistic Regression
-  + Linear Discriminat Analysis
-  + Quadratic Discriminant Analysis
-  + K-Nearest Neighbors
-
+* Optimize query performance in SQL Server 
+  + Describe query plans [x]
+  + Fundamentals of index tuning [x] 
+  + [First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit) [x]
+* Data Science Certification from MIT Applied Data Science Program (https://github.com/AndrewBorst/Data-Science-Portfolio) [x]
+  + Data Exploration [x]
+  + Inferential Statistics and Hypothesis Testing [x]
+  + Dimensional Reduction: t-SNE and PCA [x]
+  + Clustering: K-Means and Gaussian Mixture [x]
+  + Classificaton: Logistic Regression, KNN, and Random Forests [x] 
+  + Neural Networks: Artifical and Convolutional [x]
+  + Time Series [x]
+  + Recommendation Systems [x]
+    
 ### BI 
-* Effective visualization techniques
-* Star schema design and implementation 
+* Dimensional modeling design and implementation [x] 
 * Tabular model in SSAS [x]
-* Power BI to replace operational reports
+* Build Power BI Reports [x]
 
-### Application Development
-* CSS Menus for sample application (a fresh look at Flexbox and CSS Grid)
-* Blazor with Telerik Controls
-  + Telerik grid for sample data
-* Database design for auditing changes
-* [OData](https://devblogs.microsoft.com/odata/asp-net-odata-8-0-preview-for-net-5/) with EF for .NET 5 
-  
+
 ***
 
 ## Goals for 2020
