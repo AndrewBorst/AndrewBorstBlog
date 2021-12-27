@@ -13,9 +13,9 @@ tags:
 
 # Dimensional Modeling Design with the Star Schema  
 
-The purpose of the this post is to quickly give the resources for learning the star schema. I have produced a star schema in the data warehouse from staged data, built a Sql Server Analysis Services (SSAS) tabular model, and created reports in Power BI (see [Understand star schema and the importance for Power BI](https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)). 
+The purpose of this post is to quickly give the resources for learning the star schema. I have produced a star schema in the data warehouse from staged data, built a Sql Server Analysis Services (SSAS) tabular model, and created reports in Power BI (see [Understand star schema and the importance for Power BI](https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)). Going through this process, the resources below were invaluable. 
 
-Dimensional modeling with a star schema was developed by Ralph Kimball. Although, the Kimball group is no longer active, their website has many key posts that will help you with the patterns and principles. Putting the Star Schema (Adamson) book in your library is the first step along the path. If you don't have time to read it through, definitely read Part I Fundamentals before you make any design decisions.
+Dimensional modeling with a star schema was developed by Ralph Kimball. Although, the Kimball group is no longer active, their website has many key posts that will help you with the patterns and principles. Putting the Star Schema (Adamson) book in your library is the first step along the path. If you don't have time to read it through, read Part I Fundamentals before you make any design decisions.
 
 When your eyes get tired of reading, there are some must-watch, free video resources available:
 
@@ -23,7 +23,7 @@ When your eyes get tired of reading, there are some must-watch, free video resou
 2. Three part series on YouTube, [ETL Architecture In-Depth - Dimensional Modelling 101] (https://www.youtube.com/watch?v=DspXXZrSVRk).
 3. [Implementing Data Warehouse Patterns with Microsoft BI Tools](https://www.youtube.com/watch?v=VDwwbrtry94)
 
-After about 40 hours of learning, you should have a foundation on which to start modeling. About 75% of the modeling will implement the fact table to dimension table relationship that is many-to-one. The other 25% of the model will be where you will spend your most time -- remember to keep it simple and use the established pattern and practices, [The 10 Essential Rules of Dimensional Modeling] (https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/). The design patterns can be viewed as tools in your tool belt -- you pull the correct one out and apply it.  
+After about 40 hours of learning, you should have a foundation on which to start modeling. About 75% of the modeling will implement the fact table to dimension table relationship that is many-to-one. The other 25% of the model will be where you will spend your most time -- remember to keep it simple and use the established pattern and practices, [The 10 Essential Rules of Dimensional Modeling](https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/). The design patterns can be viewed as tools in your tool belt -- you pull the correct one out and apply it.  
 
 The key to acquiring the correct tool when needed is to have some familiarity with what the tools are called so you can search and find the pattern needed. The resources above should provide you with most of this knowledge. However, a list here may be helpful: 
 
@@ -33,7 +33,7 @@ The key to acquiring the correct tool when needed is to have some familiarity wi
 - Slowing Changing Dimension & Type (handling data that changes over time)
 - Junk Dimension (gather a few unrelated attributes)
 - Outrigger Dimension (only utilize when dimension table to too large and cannot be done with a typical star schema pattern)
-- Role-Playing Dimension (muliple fact keys to the same dimension)
+- Role-Playing Dimension (multiple fact keys to the same dimension)
 - Bridge Table (pattern for many-to-many relationship)
 - Factless Fact Table (tallies -- # of instances of dimension attribute values)
 - Transaction Fact Table

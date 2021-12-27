@@ -3,7 +3,7 @@ title: "Andrew Borst"
 date: '2021-05-05T21:48:51-07:00'
 ---
 
-Blogging about my adventures in development and data. As a lifelong learner, I have always found analytical work to be interesting and fufilling. 
+Blogging about my adventures in development and data. As a lifelong learner, I have always found analytical work to be interesting and fulfilling. 
 
 Located in Plainfield, Indiana which is in the suburbs of Indianapolis. 
 
@@ -23,11 +23,11 @@ Located in Plainfield, Indiana which is in the suburbs of Indianapolis.
   + Inferential Statistics and Hypothesis Testing 
   + Dimensional Reduction: t-SNE and PCA 
   + Clustering: K-Means and Gaussian Mixture 
-  + Classificaton: Logistic Regression, KNN, and Random Forests  
-  + Neural Networks: Artifical and Convolutional 
+  + Classification: Logistic Regression, KNN, and Random Forests  
+  + Neural Networks: Artificial and Convolutional 
   + Time Series 
   + Recommendation Systems 
-* Courses in Linear Alegbra and Multivariate Calculus 
+* Courses in Linear Algebra and Multivariate Calculus 
   
 ## Goals for 2021
 ### Data Engineering and Science
@@ -41,8 +41,8 @@ Located in Plainfield, Indiana which is in the suburbs of Indianapolis.
   + Inferential Statistics and Hypothesis Testing [x]
   + Dimensional Reduction: t-SNE and PCA [x]
   + Clustering: K-Means and Gaussian Mixture [x]
-  + Classificaton: Logistic Regression, KNN, and Random Forests [x] 
-  + Neural Networks: Artifical and Convolutional [x]
+  + Classification: Logistic Regression, KNN, and Random Forests [x] 
+  + Neural Networks: Artificial and Convolutional [x]
   + Time Series [x]
   + Recommendation Systems [x]
     

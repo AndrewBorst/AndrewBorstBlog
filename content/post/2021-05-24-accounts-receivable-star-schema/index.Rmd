@@ -11,19 +11,15 @@ tags:
   - SSAS
 ---
 
-### Work-In-Progress
+## Here is how the the AR area was dimesionally modeled in the data warehouse.
 
-When scouring the internet to start modeling in the the star schema pattern, I did not find one useful Accounts Receivable (AR) or Payable (AP) design which were the areas I was focused on. As far as I know, this is the first published post on modeling AR.
 
-Here is an outline of topics I will cover:
+The most important consideration when modeling fact tables is to separate each process into its own table. Adamson, in his book "Star Schema The Complete Reference", gives two questions on which to base the decision on when to separate data into different tables:  
 
-1. Invoice Fact
-2. Invoice Payment Fact
-3. Multiple Dates in a Fact Table
-4. Aging Groups 
-5. Many-to-Many Relationship between Fact and Dim Tables
-6. Junk Dimensions
+1. Do these facts occur simultaneously?
+2. Are the fact available at the same level of detail (or grain)? 
 
+The invoice and the invoice payment occur at different times -- the invoice is sent and then payment is hopefully received at a later date. The payment could also pay multiple invoices or be a partial payment on one invoice, so it is kept at a different grain than the invoice. Although the ERP was using one table for this data, it needed to be split into two tables for the dimensionally designed data warehouse. 
 
 ### 1. Invoice Fact
 
@@ -31,4 +27,4 @@ Here is an outline of topics I will cover:
 
 ### 2. Invoice Payment Fact
 
-Coming soon...
+![Invoice Payment Fact Star Schema](images/InvoicePaymentFact_Star.PNG)
