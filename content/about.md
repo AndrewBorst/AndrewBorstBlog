@@ -3,9 +3,9 @@ title: "Andrew Borst"
 date: '2021-05-05T21:48:51-07:00'
 ---
 
-Blogging about my adventures in development and data. As a lifelong learner, I have always found analytical work to be interesting and fulfilling. 
+Blogging about software development and data science. 
 
-Located in Plainfield, Indiana which is in the suburbs of Indianapolis. 
+Located in Plainfield, Indiana which is a suburb of Indianapolis.  
 
 
 ## Goals for 2022
