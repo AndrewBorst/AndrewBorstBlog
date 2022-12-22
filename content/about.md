@@ -1,6 +1,6 @@
 ---
 title: "Andrew Borst"
-date: '2021-05-05T21:48:51-07:00'
+date: "2021-05-05T21:48:51-07:00"
 ---
 
 Blogging about software development and data science. 
